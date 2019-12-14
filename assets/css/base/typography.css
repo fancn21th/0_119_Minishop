@@ -11,3 +11,7 @@ body {
 .nav-item a {
   color: #555555;
 }
+
+.nav-btn-item {
+  font-size: 14px;
+}

@@ -30,6 +30,7 @@
 .drop-down-parent {
   position: relative;
 }
+
 .drop-down {
   position: absolute;
   border: 1px solid red;
