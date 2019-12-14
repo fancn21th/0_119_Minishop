@@ -18,11 +18,14 @@ body {
   color: #555;
 }
 
-.nav-btn-item {
-  font-size: 14px;
-}
-
 .category--items {
   font-size: 12px;
   color: #999;
+}
+
+.drop-down .footer h4 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
 }
