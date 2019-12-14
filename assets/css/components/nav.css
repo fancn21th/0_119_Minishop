@@ -3,11 +3,7 @@
   vertical-align: middle;
 }
 
-.nav li {
-  display: inline-block;
-}
-
-/* 链接下拉菜单提示按钮 */
+/* 下三角按钮 */
 .down {
   display: inline-block;
   width: 0;
@@ -19,6 +15,7 @@
 }
 
 .nav-item {
+  display: inline-block;
   text-decoration: none;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -28,4 +25,17 @@
 
 .nav-item a {
   text-decoration: none;
+}
+
+.drop-down-parent {
+  position: relative;
+}
+.drop-down {
+  position: absolute;
+  border: 1px solid red;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  height: 300px;
+  list-style-type: none;
 }
