@@ -1,0 +1,13 @@
+body {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+.nav {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-item a {
+  color: #555555;
+}
