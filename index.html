@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <!-- test -->
+    <style>
+      .row:hover {
+        border: 1px dashed red;
+      }
+      .row:hover .logo {
+        border: 1px dashed blue;
+      }
+      .row:hover .nav-item {
+        border: 1px dashed green;
+      }
+      .row:hover .nav-btn {
+        border: 1px dashed darkblue;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <!-- base -->
+    <link rel="stylesheet" href="./assets/css/base/reset.css" />
+    <link rel="stylesheet" href="./assets/css/base/layout.css" />
+    <link rel="stylesheet" href="./assets/css/base/typography.css" />
+    <!-- modules -->
+    <link rel="stylesheet" href="./assets/css/modules/header.css" />
+    <!-- components -->
+    <link rel="stylesheet" href="./assets/css/components/logo.css" />
+    <link rel="stylesheet" href="./assets/css/components/nav.css" />
+    <link rel="stylesheet" href="./assets/css/components/buttons.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div class="row">
+        <figure class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </figure>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#">Home <b class="down"></b></a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Men <b class="down"></b></a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Women <b class="down"></b></a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Template <b class="down"></b></a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Contact <b class="down"></b></a>
+          </li>
+        </ul>
+        <div class="nav-btn pull-right">
+          <button class="btn nav-btn-item btn-primary">
+            <i class="fa fa-shopping-cart"></i>
+            <span>3 Items In Cart</span>
+          </button>
+        </div>
+        <div class="nav-btn pull-right">
+          <button class="btn nav-btn-item">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+        <div class="nav-btn pull-right">
+          <button class="btn nav-btn-item">
+            <i class="fa fa-users"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+  </body>
+</html>

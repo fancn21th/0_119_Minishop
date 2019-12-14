@@ -1,0 +1,31 @@
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+/* 链接下拉菜单提示按钮 */
+.down {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+.nav-item {
+  text-decoration: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}

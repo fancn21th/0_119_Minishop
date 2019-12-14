@@ -1,0 +1,23 @@
+.row {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+/* clear-fix to clear float */
+.clear-fix::before,
+.clear-fix::after {
+  display: table;
+  content: "";
+}
+.clear-fix::after {
+  clear: both;
+}
+.clear-fix {
+  clear: both;
+  *zoom: 1;
+}
+
+/* pull-right */
+.pull-right {
+  float: right;
+}

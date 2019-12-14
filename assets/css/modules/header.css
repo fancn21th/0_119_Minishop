@@ -1,0 +1,9 @@
+.nav-btn {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-btn-item {
+  margin-left: 7px;
+}
