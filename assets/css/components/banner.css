@@ -1,0 +1,27 @@
+.sliders {
+}
+
+.sliders figure.col-3 {
+  padding: 0;
+}
+
+.sliders img {
+  width: 100%;
+}
+
+.controls {
+  text-align: center;
+}
+
+.controls .page {
+  display: inline-block;
+  margin: 5px;
+}
+
+.controls .page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #869791;
+}

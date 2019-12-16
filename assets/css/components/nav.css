@@ -22,9 +22,8 @@
   padding-right: 15px;
 }
 
-/* 下拉菜单定位 */
-.drop-down-parent {
-  position: relative;
+.nav-item:hover .drop-down {
+  display: block;
 }
 
 .drop-down {
@@ -37,10 +36,15 @@
   width: 100%;
   border: 1px solid rgba(0, 0, 0, 0.15);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  display: none;
 }
 
 .drop-down > li {
   padding: 20px 10px;
+}
+
+.drop-down .categories {
+  background-color: #fff;
 }
 
 /* category */
