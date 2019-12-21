@@ -1,0 +1,14 @@
+.features .container h3,
+.features .container p {
+  width: 100%;
+  text-align: center;
+}
+
+.features ul {
+  width: 100%;
+  text-align: center;
+}
+
+.features h4 {
+  display: inline-block;
+}

@@ -17,13 +17,20 @@
     <link rel="stylesheet" href="./assets/css/base/typography.css" />
     <!-- modules -->
     <link rel="stylesheet" href="./assets/css/modules/header.css" />
+    <link rel="stylesheet" href="./assets/css/modules/features.css" />
     <!-- components -->
     <link rel="stylesheet" href="./assets/css/components/logo.css" />
     <link rel="stylesheet" href="./assets/css/components/nav.css" />
     <link rel="stylesheet" href="./assets/css/components/buttons.css" />
     <link rel="stylesheet" href="./assets/css/components/banner.css" />
   </head>
-
+  <!-- 
+    本页面的编写基本原则 (截止于 2019年12月21日)
+    1. 标签嵌套层级尽可能浅 (性能)
+    2. 容器标签尽可能只负责布局和定位 (可维护)
+    3. 为了满足原则1，可能会在容器标签上增加 类样式 以增加样式功能， 
+       然而这有违 “单一职责” 原则
+  -->
   <body>
     <!-- header -->
     <header class="header">
@@ -150,23 +157,21 @@
     <div class="features">
       <div class="container">
         <h3>About Minishop</h3>
-        <p>
-          Minishop is for html / css training in 2019
-        </p>
+        <p>Minishop is site for <strong>html / css training</strong> in 2019</p>
         <ul>
-          <li>
+          <li class="col-3">
             <b class="fa fa-heart-o"></b>
             <h4>Satisfied customers</h4>
           </li>
-          <li>
+          <li class="col-3">
             <b class="fa fa-tags"></b>
             <h4>Best Prices</h4>
           </li>
-          <li>
+          <li class="col-3">
             <b class="fa fa-send-o"></b>
             <h4>Next Day Delivery</h4>
           </li>
-          <li>
+          <li class="col-3">
             <b class="fa fa-refresh"></b>
             <h4>Free Returns For 3 Months</h4>
           </li>
